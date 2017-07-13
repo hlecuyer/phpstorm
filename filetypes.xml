@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="lol" type="PLAIN_TEXT" />
       <mapping pattern="nodemon" type="PLAIN_TEXT" />
       <mapping pattern="install" type="PLAIN_TEXT" />
       <mapping pattern="node" type="PLAIN_TEXT" />
