@@ -9,6 +9,7 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
       <mapping ext="env" type="PLAIN_TEXT" />
+      <mapping pattern="organizationTelematic.yml" type="YAML" />
     </extensionMap>
   </component>
 </application>
