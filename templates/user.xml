@@ -1,0 +1,12 @@
+<templateSet group="user">
+  <template name="dumpd" value="\Symfony\Component\VarDumper\VarDumper::dump($END$);die(__METHOD__.':'.__LINE__);" description="dump sf and die" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="dd" value="\Symfony\Component\VarDumper\VarDumper::dump($END$);" description="dump" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
