@@ -5,6 +5,7 @@
       <mapping pattern="composer" type="PLAIN_TEXT" />
       <mapping pattern="dependency-injection" type="PLAIN_TEXT" />
       <mapping pattern="lol" type="PLAIN_TEXT" />
+      <mapping pattern=".php_cs.cache" type="PLAIN_TEXT" />
       <mapping pattern="install" type="PLAIN_TEXT" />
       <mapping pattern="composer-sms-project" type="PLAIN_TEXT" />
       <mapping pattern="yolo" type="PLAIN_TEXT" />
