@@ -1,8 +1,7 @@
 <templateSet group="PHP">
-  <template name="getspec" value="public function it_returns_$NAME$($PARAMETERS$)&#10;{&#10;    $this-&gt;$NAME$()-&gt;shouldBe($RETURN$);&#10;}" description="create phpspec method for getter" toReformat="false" toShortenFQNames="true">
+  <template name="getspec" value="function it_returns_$NAME$($PARAM$ $NAME$)&#10;{&#10;    $this-&gt;$NAME$()-&gt;shouldBe($NAME$);&#10;}" description="create phpspec method for getter" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="RETURN" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="PHP" value="true" />
     </context>
