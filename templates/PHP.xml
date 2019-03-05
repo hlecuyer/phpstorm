@@ -13,4 +13,10 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="src" value="function it_throws_exception_when_$ATTR$_is_missing()&#10;{&#10;    $base_source = self::BASE_SOURCE;&#10;    unset($base_source['$ATTR$']);&#10;    &#10;    $this-&gt;beConstructedThrough(&#10;    'fromRawSource',&#10;    [$base_source]&#10;    );&#10;    &#10;    $this-&gt;shouldThrow(\InvalidArgumentException::class)-&gt;duringInstantiation();&#10;}" description="test source" toReformat="false" toShortenFQNames="true">
+    <variable name="ATTR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
