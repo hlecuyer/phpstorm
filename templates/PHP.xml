@@ -19,7 +19,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="not" value="function it_throws_exception_when_$ARG$_is_not_$REASON$()&#10;{&#10;    $base_source = self::BASE_SOURCE;&#10;    $base_source['$ARG$'] = $VALUE$;&#10;    &#10;    $this-&gt;beConstructedThrough(&#10;        'fromRawSource',&#10;        [$base_source]&#10;    );&#10;    &#10;    $this-&gt;shouldThrow(\InvalidArgumentException::class)-&gt;duringInstantiation();&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="not" value="function it_throws_exception_when_$ARG$_is_not_$REASON$()&#10;{&#10;    $base_source = self::BASE_SOURCE;&#10;    $base_source['$ARG$'] = $VALUE$;&#10;    &#10;    $this-&gt;beConstructedThrough(&#10;        'fromRawSource',&#10;        [$base_source]&#10;    );&#10;    &#10;    $this-&gt;shouldThrow(\InvalidArgumentException::class)-&gt;duringInstantiation();&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="ARG" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="REASON" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
